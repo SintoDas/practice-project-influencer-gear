@@ -71,8 +71,12 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 1rem;
-  padding: 7rem;
+  gap: 2rem;
+  margin: 0rem auto;
+  border: 1px solid #a46c6c;
+  width: 70%;
+  border-radius: 5px;
+  height: 100%;
 }
 /* }card container */
 .collection-title {
@@ -161,6 +165,7 @@ footer {
   justify-content: center;
   height: 240px; /* Adjust the height as needed */
   color: #fff;
+  gap: 1.5rem;
 }
 /* footer */
 .footer-title {
@@ -171,6 +176,13 @@ footer {
   color: #d9dbe1;
   font-size: 0.8rem;
   font-weight: 700;
+  margin-top: 0.5rem;
+}
+.footer-container img {
+  padding: 1rem;
+  background-color: #d9dbe1;
+  height: 3rem;
+  border-radius: 5px;
   margin-top: 0.5rem;
 }
 /* responsive  */
